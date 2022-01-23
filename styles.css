@@ -1,0 +1,26 @@
+#caption {
+    background-color: #fff;
+    color: #000;
+    opacity: 0.8;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+    position: absolute;
+    padding: 5px 7px;
+    font-family: sans-serif;
+    max-width: 300px;
+    font-size: 20px;
+    text-align: center;
+    transition: left 1s, top 1s, opacity 0.3s;
+}
+
+.noWidthBold {
+    /* text-shadow:0px 1px 0px black; */
+
+    text-shadow: 0 0 .01px black, 0 0 .01px black, 0 0 .01px black;
+
+        /* text-shadow: .25px 0px .1px,
+                    -.25px 0px .1px; */
+                    
+    /* font-weight: bold; */
+}
+

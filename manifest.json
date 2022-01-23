@@ -1,0 +1,32 @@
+{
+  "name": "Auto Bubble",
+  "description": "Advanced Live Video Transcript",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["utteranceToPhrase.js", "getCurrentSentence.js", "displayCaption.js", "facedetect/face-api.min.js", "facedetect/face.js", "main.js"],
+      "css": ["styles.css"]
+    }
+  ],
+
+  "action": {
+    "default_icon": {
+        "16": "/images/get_started16.png",
+        "32": "/images/get_started32.png",
+        "48": "/images/get_started48.png",
+        "128": "/images/get_started128.png"
+      }
+  },
+  "icons": {
+    "16": "/images/get_started16.png",
+    "32": "/images/get_started32.png",
+    "48": "/images/get_started48.png",
+    "128": "/images/get_started128.png"
+  }
+}
+
